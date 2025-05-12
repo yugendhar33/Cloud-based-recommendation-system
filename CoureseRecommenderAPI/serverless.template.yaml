@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: ASP.NET Core Web API for Course Recommender
+
+Resources:
+  CourseRecommenderAPI:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: CourseRecommenderAPI
+      Handler: CourseRecommenderAPI::CourseRecommenderAPI.LambdaEntryPoint::FunctionHandlerAsync
+      Runtime: dotnet8
+      CodeUri: ./bin/Release/net8.0/publish
+      MemorySize: 512
+      Timeout: 60
+      PackageType: Zip
+      Architectures:
+        - x86_64
+      Events:
+        ProxyApi:
+          Type: HttpApi  # ✅ Correct type for APIGatewayHttpApiV2ProxyFunction
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+
