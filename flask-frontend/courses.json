@@ -1,0 +1,182 @@
+[
+    {
+        "course_id": "1",
+        "title": "AI For Everyone",
+        "url": "https://coursera.org/ai",
+        "slug": "ai-for-everyone",
+        "courseType": "Free",
+        "topics": ["AI", "Machine Learning"],
+        "description": "Learn the basics of AI."
+    },
+    {
+        "course_id": "2",
+        "title": "Python for Beginners",
+        "url": "https://coursera.org/python",
+        "slug": "python-for-beginners",
+        "courseType": "Free",
+        "topics": ["Python", "Coding"],
+        "description": "Master Python programming."
+    },
+    {
+        "course_id": "3",
+        "title": "Introduction to Java",
+        "url": "https://coursera.org/java",
+        "slug": "intro-to-java",
+        "courseType": "Free",
+        "topics": ["Java", "Programming"],
+        "description": "Learn the fundamentals of Java programming."
+    },
+    {
+        "course_id": "4",
+        "title": "Data Science with R",
+        "url": "https://coursera.org/data-science-r",
+        "slug": "data-science-with-r",
+        "courseType": "Paid",
+        "topics": ["Data Science", "R", "Statistics"],
+        "description": "Learn data analysis and visualization using R."
+    },
+    {
+        "course_id": "5",
+        "title": "Deep Learning Specialization",
+        "url": "https://coursera.org/deep-learning",
+        "slug": "deep-learning-specialization",
+        "courseType": "Paid",
+        "topics": ["Deep Learning", "AI", "Neural Networks"],
+        "description": "A comprehensive deep learning course covering neural networks, CNNs, RNNs, and more."
+    },
+    {
+        "course_id": "6",
+        "title": "Advanced Natural Language Processing",
+        "url": "https://coursera.org/nlp",
+        "slug": "advanced-nlp",
+        "courseType": "Paid",
+        "topics": ["NLP", "AI", "Text Analytics"],
+        "description": "Explore advanced techniques for processing and understanding natural language data."
+    },
+    {
+        "course_id": "7",
+        "title": "Intro to Machine Learning with Python",
+        "url": "https://coursera.org/ml-python",
+        "slug": "intro-to-ml-python",
+        "courseType": "Free",
+        "topics": ["Machine Learning", "Python"],
+        "description": "Learn the basics of machine learning with Python."
+    },
+    {
+        "course_id": "8",
+        "title": "Introduction to Data Science",
+        "url": "https://coursera.org/intro-to-data-science",
+        "slug": "intro-to-data-science",
+        "courseType": "Free",
+        "topics": ["Data Science", "Python"],
+        "description": "An introductory course to data science concepts, with practical coding exercises in Python."
+    },
+    {
+        "course_id": "9",
+        "title": "Snowflake Data Warehousing",
+        "url": "https://coursera.org/snowflake",
+        "slug": "snowflake-data-warehousing",
+        "courseType": "Paid",
+        "topics": ["Snowflake", "Cloud", "Data Engineering"],
+        "description": "Master Snowflake architecture, data warehousing, and cloud computing."
+    },
+    {
+        "course_id": "10",
+        "title": "AI and Machine Learning for Business",
+        "url": "https://coursera.org/ai-business",
+        "slug": "ai-for-business",
+        "courseType": "Paid",
+        "topics": ["AI", "Machine Learning", "Business"],
+        "description": "Learn how AI and ML can be applied in business scenarios."
+    },
+    {
+        "course_id": "11",
+        "title": "Data Structures and Algorithms in Java",
+        "url": "https://coursera.org/data-structures-java",
+        "slug": "data-structures-java",
+        "courseType": "Free",
+        "topics": ["Java", "Algorithms", "Data Structures"],
+        "description": "Learn data structures and algorithms using Java."
+    },
+    {
+        "course_id": "12",
+        "title": "Python for Data Science",
+        "url": "https://coursera.org/python-for-data-science",
+        "slug": "python-for-data-science",
+        "courseType": "Free",
+        "topics": ["Python", "Data Science"],
+        "description": "Learn the essentials of Python programming for data science."
+    },
+    {
+        "course_id": "13",
+        "title": "Natural Language Processing with Deep Learning",
+        "url": "https://coursera.org/nlp-deep-learning",
+        "slug": "nlp-deep-learning",
+        "courseType": "Paid",
+        "topics": ["NLP", "Deep Learning", "AI"],
+        "description": "Learn how deep learning is applied to NLP tasks such as text classification and sentiment analysis."
+    },
+    {
+        "course_id": "14",
+        "title": "Cloud Computing with AWS",
+        "url": "https://coursera.org/cloud-aws",
+        "slug": "cloud-computing-aws",
+        "courseType": "Free",
+        "topics": ["Cloud Computing", "AWS"],
+        "description": "Get introduced to AWS cloud services and cloud computing fundamentals."
+    },
+    {
+        "course_id": "15",
+        "title": "Intro to Deep Learning with TensorFlow",
+        "url": "https://coursera.org/deep-learning-tensorflow",
+        "slug": "intro-to-deep-learning-tensorflow",
+        "courseType": "Free",
+        "topics": ["Deep Learning", "TensorFlow"],
+        "description": "Understand the fundamentals of deep learning and how to use TensorFlow for training neural networks."
+    },
+    {
+        "course_id": "16",
+        "title": "Data Science with SQL",
+        "url": "https://coursera.org/data-science-sql",
+        "slug": "data-science-sql",
+        "courseType": "Paid",
+        "topics": ["Data Science", "SQL"],
+        "description": "Learn to analyze and visualize data using SQL for data science."
+    },
+    {
+        "course_id": "17",
+        "title": "Java for Web Development",
+        "url": "https://coursera.org/java-web-dev",
+        "slug": "java-for-web-dev",
+        "courseType": "Paid",
+        "topics": ["Java", "Web Development"],
+        "description": "Learn how to use Java for building web applications."
+    },
+    {
+        "course_id": "18",
+        "title": "Machine Learning with R",
+        "url": "https://coursera.org/ml-r",
+        "slug": "machine-learning-r",
+        "courseType": "Free",
+        "topics": ["Machine Learning", "R"],
+        "description": "Master machine learning techniques using R programming language."
+    },
+    {
+        "course_id": "19",
+        "title": "Snowflake Data Engineering",
+        "url": "https://coursera.org/snowflake-data-engineering",
+        "slug": "snowflake-data-engineering",
+        "courseType": "Paid",
+        "topics": ["Snowflake", "Cloud", "Data Engineering"],
+        "description": "Learn how to build and scale data pipelines with Snowflake."
+    },
+    {
+        "course_id": "20",
+        "title": "Introduction to Deep Learning with PyTorch",
+        "url": "https://coursera.org/intro-to-deep-learning-pytorch",
+        "slug": "intro-to-deep-learning-pytorch",
+        "courseType": "Paid",
+        "topics": ["Deep Learning", "PyTorch"],
+        "description": "Learn deep learning fundamentals and apply them using PyTorch."
+    }
+]

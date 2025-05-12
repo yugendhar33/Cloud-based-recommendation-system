@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering Course Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Software Engineering Course Recommender</h1>
+
+        <!-- Form to collect user input (skills and goals) -->
+        <form action="/recommend" method="POST" class="form">
+            <div class="form-group">
+                <label for="skills">Skills:</label>
+                <input type="text" name="skills" id="skills" placeholder="e.g., Python, Machine Learning" required>
+            </div>
+
+            <div class="form-group">
+                <label for="goal">Goal:</label>
+                <input type="text" name="goal" id="goal" placeholder="Enter your learning goal (e.g., Data Science, Cloud Computing)" required>
+            </div>
+
+            <div class="form-group">
+                <label for="preferredPlatforms">Preferred Platforms:</label>
+                <input type="text" name="preferredPlatforms" id="preferredPlatforms" placeholder="e.g., Coursera, Udemy" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Get Recommendations</button>
+        </form>
+
+        {% if recommendations %}
+            <div class="recommendations">
+                <h2>Recommended Courses:</h2>
+                <ul>
+                    {% for course in recommendations %}
+                        <li>
+                            <a href="{{ course.url }}" target="_blank">{{ course.title }}</a> - {{ course.courseType }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+        
+        {% if error %}
+            <div class="error-message">
+                <p>Error: {{ error }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
