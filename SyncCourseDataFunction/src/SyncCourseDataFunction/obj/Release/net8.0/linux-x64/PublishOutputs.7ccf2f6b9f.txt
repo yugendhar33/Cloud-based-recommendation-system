@@ -1,0 +1,12 @@
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/SyncCourseDataFunction.deps.json
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/SyncCourseDataFunction.runtimeconfig.json
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/SyncCourseDataFunction.pdb
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/Amazon.Lambda.Core.dll
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/Amazon.Lambda.Serialization.SystemTextJson.dll
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/AWSSDK.Core.dll
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/AWSSDK.DynamoDBv2.dll
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/System.IO.Pipelines.dll
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/System.Net.Http.Json.dll
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/System.Text.Encodings.Web.dll
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/System.Text.Json.dll
+/Users/dharanithakkallapally/SyncCourseDataFunction/src/SyncCourseDataFunction/bin/Release/net8.0/publish/SyncCourseDataFunction.dll
